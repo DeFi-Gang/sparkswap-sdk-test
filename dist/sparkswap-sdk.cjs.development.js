@@ -166,7 +166,7 @@ function _toPropertyKey(arg) {
   return typeof key === "symbol" ? key : String(key);
 }
 
-var FACTORY_ADDRESS = '0x955219A87eB0C6754fd247266af970F7d16906CD';
+var FACTORY_ADDRESS = '0x955219a87eb0c6754fd247266af970f7d16906cd';
 var WETH = {
   369: /*#__PURE__*/new sdkCore.Token(369, '0xa1077a294dde1b09bb078844df40758a5d0f9a27', 18, 'WPLS', 'Wrapped Pulse')
 };
