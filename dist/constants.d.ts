@@ -1,11 +1,11 @@
 import { Pulse, Token } from '@pulsex/sdk-core';
 import JSBI from 'jsbi';
-export declare const FACTORY_ADDRESS = "0xf61f7C93387D1e99250D9Ebe9F3a26b53B164950";
+export declare const FACTORY_ADDRESS = "0x955219A87eB0C6754fd247266af970F7d16906CD";
 export declare const WETH: {
     369: Token;
 };
 export declare const ETHER: Pulse;
-export declare const INIT_CODE_HASH = "0x0eeb74fefe5667c2eef945c113bf051629ddee029deaf9a88556dceb240d07d9";
+export declare const INIT_CODE_HASH = "0xd98d5db929ea0eea7a1e5d6b95fe5a6bca2f96da961c8c025a31487e3354fd80";
 export declare const MINIMUM_LIQUIDITY: JSBI;
 export declare const ZERO: JSBI;
 export declare const ONE: JSBI;
