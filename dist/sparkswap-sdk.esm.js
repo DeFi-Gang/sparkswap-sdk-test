@@ -346,6 +346,9 @@ var Pair = /*#__PURE__*/function () {
   _createClass(Pair, [{
     key: "token0Price",
     get: function get() {
+      if (JSBI.equal(this.tokenAmounts[0].numerator, JSBI.BigInt(0))) {
+        return new Price(this.token0, this.token1, JSBI.BigInt(1), JSBI.BigInt(0));
+      }
       var result = this.tokenAmounts[1].divide(this.tokenAmounts[0]);
       return new Price(this.token0, this.token1, result.denominator, result.numerator);
     }
@@ -355,6 +358,9 @@ var Pair = /*#__PURE__*/function () {
   }, {
     key: "token1Price",
     get: function get() {
+      if (JSBI.equal(this.tokenAmounts[1].numerator, JSBI.BigInt(0))) {
+        return new Price(this.token0, this.token1, JSBI.BigInt(1), JSBI.BigInt(0));
+      }
       var result = this.tokenAmounts[0].divide(this.tokenAmounts[1]);
       return new Price(this.token1, this.token0, result.denominator, result.numerator);
     }
