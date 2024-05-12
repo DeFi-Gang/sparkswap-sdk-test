@@ -162,7 +162,7 @@ function _toPropertyKey(arg) {
   return typeof key === "symbol" ? key : String(key);
 }
 
-var FACTORY_ADDRESS = '0x955219a87eb0c6754fd247266af970f7d16906cd';
+var FACTORY_ADDRESS = '0xE9e8Ad10AEa5965243406Cb88d5174C8503B1030';
 var WETH = {
   369: /*#__PURE__*/new Token(369, '0xa1077a294dde1b09bb078844df40758a5d0f9a27', 18, 'WPLS', 'Wrapped Pulse')
 };

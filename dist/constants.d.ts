@@ -1,6 +1,6 @@
 import { Pulse, Token } from '@pulsex/sdk-core';
 import JSBI from 'jsbi';
-export declare const FACTORY_ADDRESS = "0x955219a87eb0c6754fd247266af970f7d16906cd";
+export declare const FACTORY_ADDRESS = "0xE9e8Ad10AEa5965243406Cb88d5174C8503B1030";
 export declare const WETH: {
     369: Token;
 };
